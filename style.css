@@ -1,0 +1,225 @@
+*{
+	padding:0;
+	margin:0;
+
+}
+header{
+	width: 1080px;
+	height: auto;
+	margin: 0 auto;
+}
+.nav{
+	width: 1080px;
+	height: auto;
+	background: #000;
+
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.nav ul li a{
+	display: block;
+	padding: 20px 35px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.nav ul li a:hover{
+	color: yellow;
+	background: red;
+
+}
+.nav ul li ul{
+	position: absolute;
+	background: #000;
+	left: -9999px;
+}
+.nav ul li:hover ul{
+	left: 0px;
+}
+.nav ul li ul li{
+	width: 200px;
+	border-bottom: 1px solid #fff;
+}
+
+.banner-cover{
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.banner-text{
+	padding: 100px;
+	text-align: center;
+}
+.banner-text button{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px
+	border:0;
+	background: #000;
+	color: #fff;
+	margin: 0px 8px;
+
+
+
+}
+.about-logo img{
+	width: 320px;
+	height: auto;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 8px 10px 0px #000;
+}
+.about-text{
+	width: 520px;
+	height: auto;
+	padding: 0px 20px;
+}
+
+.about-text h2{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px; 
+}
+.about-text p{
+	font-size: 16px;
+	 color: gray;
+	 line-height: 22px; 
+}
+.row{
+	overflow: auto;
+
+}
+.col{
+	float: left;
+}
+.about-section{
+	background: #DCE7E5;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.title{
+	width: 180px;
+	height: auto;
+	margin: 0 auto;
+}
+.title h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.contact{
+	background: #fff;
+	padding: 15px 15px 15px 80px;
+	box-shadow: 0px 0px 10px #ccc;
+	width: 200px;
+	position:relative;
+	display: inline-block;
+	margin: 0px 8px;
+}
+.cont-icon i{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float: left;
+	top: 8px;
+	left: 15px;
+	background: #222;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	font-size: 30px;
+	transition: .5s;
+
+}
+.cont-icon i:hover{
+	color: yellow;
+	transform: scale(.8);
+}
+.cont-text p{
+	padding: 0px;
+	margin: 0;
+	font-size: 18px;
+	line-height: 22px;
+
+}
+.contact-section{
+	background: lightgreen;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.contact-form{
+	width: 620px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.inputTag input{
+	font-size: 16px;
+	text-transform: capitalize;
+	padding: 10px 10px;
+	width: 80%;
+	border: 0;
+	margin: 8px 0px;
+
+
+}
+.inputTag textarea{
+	width: 518px;
+	height: auto;
+	border: 0;
+
+}
+.inputTag button{
+	width: 84%;
+	padding: 10px 0px;
+	background: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top:4px;
+	border: 0; 
+
+}
+footer{
+	width: 1080px;
+	margin: 0 auto;
+	height: auto;
+	background: #000;
+	color: #fff;
+	padding: 30px 0px;
+
+}
+.footer-icon{
+	float: right;
+}
+.footer-icon i{
+	font-size: 30px;
+	padding: 0px 10px;
+	transition: .5s;
+
+}
+.footer-icon i:hover{
+	color: yellow;
+	transform: scale(.8);
+}
+.footer-text{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
